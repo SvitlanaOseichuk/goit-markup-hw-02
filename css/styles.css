@@ -44,20 +44,11 @@ ul {
 }
 
 .visualy-hidden {
-    /*position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;*/
+    color: var(--c-brand);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 
@@ -79,7 +70,7 @@ ul {
 }
 
 .nav-link {
-    color: var(--c-brand);
+    color: var(--c-brand);  
     text-transform: capitalize;
     font-weight: 500;
     font-size: 16px;
@@ -89,7 +80,8 @@ ul {
 }
 
 .nav-link:active,  
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--c-active);
     text-decoration: underline;
 }
@@ -107,7 +99,8 @@ ul {
 }
 
 .address-link:active, 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
     color: var(--c-active);
 }
 
