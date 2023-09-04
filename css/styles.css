@@ -25,9 +25,7 @@ ul {
     list-style: none;
 }
 
-h1, h2, h3 {
-    color: var(--c-brand);
-}
+
 
 .hero-button {
     color: var(--color-primary-light);
@@ -42,13 +40,14 @@ h1, h2, h3 {
     letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--c-active);    
 }
 
 .visualy-hidden {
-    position: absolute;
-    /* add width: 1px;*/
+    /*position: absolute;
+    width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
@@ -56,7 +55,11 @@ h1, h2, h3 {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+    overflow: hidden;*/
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 
@@ -120,6 +123,7 @@ h1, h2, h3 {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 
@@ -172,9 +176,12 @@ h1, h2, h3 {
 }
 
 .team-section {
-    background-color: var(--color-primary-light);
+    background-color: var(--c-light);
 }
 
+.text-team-bgc {
+    background-color: #FFF;
+}
 .portfolio-section {
     background-color: var(--color-primary-light);
 }
