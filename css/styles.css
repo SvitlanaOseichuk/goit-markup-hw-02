@@ -1,5 +1,5 @@
 :root {
-    --c-brand: #2E2F42;
+    --c-brand: #2E2F42; 
     --color-primary: #434455;
     --color-primary-light: #FFF;
     --logo-color: #4D5AE5;
@@ -48,7 +48,7 @@ h1, h2, h3 {
 
 .visualy-hidden {
     position: absolute;
-    width: 1px;
+    /* add width: 1px;*/
     height: 1px;
     margin: -1px;
     border: 0;
@@ -66,7 +66,7 @@ h1, h2, h3 {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
@@ -139,7 +139,7 @@ h1, h2, h3 {
 .advantage-text {
     font-size: 16px;
     line-height:1.5;
-    letter-spacing: 0.016em;
+    letter-spacing: 0.02em;
 }
 
 /*team and portfolio section*/
@@ -150,7 +150,7 @@ h1, h2, h3 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.018em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -160,14 +160,14 @@ h1, h2, h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.016em;
+    letter-spacing: 0.02em;
 }
 
 .team-text,
 .portfolio-text {
     font-size: 16px;
     line-height:1.5;
-    letter-spacing: 0.016em;
+    letter-spacing: 0.02em;
 }
 
 .team-section {
@@ -185,7 +185,7 @@ h1, h2, h3 {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -194,7 +194,7 @@ h1, h2, h3 {
     color: var(--c-light);
     font-size: 16px;
     line-height:1.5;
-    letter-spacing: 0.016em;
+    letter-spacing: 0.02em;
 }
 
 .footer {
